@@ -1,0 +1,102 @@
+
+body {
+    background-image: url("../styles/spacebg.jpg");
+}
+
+
+nav a{
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+
+
+
+.left{
+    float:left;
+}
+
+.right{
+    float:right;
+}
+
+
+.navbar{
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.navbar a{
+    color: #FFFFFF;
+}
+
+section {
+    position: relative;
+}
+
+footer{
+    clear: both;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.bodymessage{
+    /*padding-right: 100px;
+    padding-left: 800px;
+    
+    padding-top:100px;*/
+    
+    
+    /*position: absolute;*/
+    position: relative;
+    left: 200px;
+    top: 100px;
+    width: 40%;
+    
+}
+
+
+.buttonDiv{
+
+    margin: 100px;
+}
+
+.bodyButton{
+    border: 5px solid #2d3e64;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+
+    font-size: 1.5em;
+    padding: 10px 15px 10px 15px;
+    margin: 15px 15px;
+}
+
+.buttonDiv a:hover{
+    background-color: #2d3e64;
+    color: #FFFFFF;
+}
+
+nav a:hover{
+    color: crimson;
+}
+.buttonDiv{
+
+    margin: 100px;
+}
+
+#dropDownContent{
+    display: none;
+}
+#dropDownContent a{
+    display: block;
+    clear:both;
+    
+}
+
